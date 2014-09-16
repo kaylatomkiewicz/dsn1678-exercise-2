@@ -82,14 +82,13 @@ body {
   position: absolute;
   width: 100%;
   transition: color 200ms linear;
+  color: rgba(255,255,255,0.7);
 
   text-align: center;
 }
 
-.chart__label:hover,
-.chart__label:focus,
-.chart__label:active {
-	color: #fff;
+.chart__item:hover .chart__label {
+  color: rgba(255,255,255,1.0);
 }
 
 .chart__bar-wrap {
